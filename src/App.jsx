@@ -828,7 +828,7 @@ function App() {
                                     COLORES_TIPOS[mov.tipo] || "#777",
                                 }}
                               >
-                                {mov.tipo}
+                                {TRADUCCION_TIPOS[mov.tipo] || mov.tipo}
                               </span>
                             </td>
 
